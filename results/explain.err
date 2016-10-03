@@ -1,0 +1,14 @@
+psql: fe_sendauth: no password supplied
+psql: FATAL:  password authentication failed for user "tpch-user"
+FATAL:  password authentication failed for user "tpch-user"
+psql: fe_sendauth: no password supplied
+psql: FATAL:  password authentication failed for user "tpch-user"
+FATAL:  password authentication failed for user "tpch-user"
+psql: FATAL:  database "tpch-db" does not exist
+psql: FATAL:  database "tpch-db" does not exist
+ERROR:  syntax error at or near ":"
+LINE 1: :x
+        ^
+ERROR:  syntax error at or near ":"
+LINE 1: :x
+        ^

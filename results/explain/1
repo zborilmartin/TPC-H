@@ -1,0 +1,30 @@
+                                           QUERY PLAN                                           
+------------------------------------------------------------------------------------------------
+ Limit  (cost=422781.73..422781.73 rows=1 width=25)
+   ->  Sort  (cost=422781.73..422781.75 rows=6 width=25)
+         Sort Key: l_returnflag, l_linestatus
+         ->  HashAggregate  (cost=422781.60..422781.70 rows=6 width=25)
+               ->  Seq Scan on lineitem  (cost=0.00..187506.88 rows=5881868 width=25)
+                     Filter: (l_shipdate <= '1998-08-17 00:00:00'::timestamp without time zone)
+(6 rows)
+
+                                           QUERY PLAN                                           
+------------------------------------------------------------------------------------------------
+ Limit  (cost=424201.13..424201.13 rows=1 width=25)
+   ->  Sort  (cost=424201.13..424201.15 rows=6 width=25)
+         Sort Key: l_returnflag, l_linestatus
+         ->  HashAggregate  (cost=424200.99..424201.10 rows=6 width=25)
+               ->  Seq Scan on lineitem  (cost=0.00..187506.88 rows=5917353 width=25)
+                     Filter: (l_shipdate <= '1998-09-06 00:00:00'::timestamp without time zone)
+(6 rows)
+
+ l_returnflag | l_linestatus |   sum_qty   | sum_base_price |  sum_disc_price  |     sum_charge     |       avg_qty       |     avg_price      |        avg_disc        | count_order 
+--------------+--------------+-------------+----------------+------------------+--------------------+---------------------+--------------------+------------------------+-------------
+ A            | F            | 37734107.00 | 56586554400.73 | 53758257134.8700 | 55909065222.827692 | 25.5220058532573370 | 38273.129734621672 | 0.04998529583839761162 |     1478493
+(1 row)
+
+ l_returnflag | l_linestatus |   sum_qty   | sum_base_price |  sum_disc_price  |     sum_charge     |       avg_qty       |     avg_price      |        avg_disc        | count_order 
+--------------+--------------+-------------+----------------+------------------+--------------------+---------------------+--------------------+------------------------+-------------
+ A            | F            | 37734107.00 | 56586554400.73 | 53758257134.8700 | 55909065222.827692 | 25.5220058532573370 | 38273.129734621672 | 0.04998529583839761162 |     1478493
+(1 row)
+

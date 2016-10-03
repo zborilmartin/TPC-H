@@ -1,0 +1,2 @@
+psql: FATAL:  password authentication failed for user "tpch-user"
+FATAL:  password authentication failed for user "tpch-user"

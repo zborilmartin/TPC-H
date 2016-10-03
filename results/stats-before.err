@@ -1,0 +1,8 @@
+Cancel request sent
+ERROR:  canceling statement due to user request
+Cancel request sent
+ERROR:  canceling statement due to user request
+psql: FATAL:  role "root" does not exist
+psql: FATAL:  role "root" does not exist
+psql: FATAL:  role "root" does not exist
+psql: FATAL:  role "root" does not exist

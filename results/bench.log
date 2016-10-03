@@ -1,0 +1,38 @@
+2016-04-05 17:23:14 [1459869794] : preparing TPC-H database
+2016-04-05 17:23:14 [1459869794] :   loading data
+2016-04-05 17:23:18 [1459869798] :   creating primary keys
+2016-04-05 17:23:26 [1459869806] :   creating foreign keys
+2016-04-05 17:23:38 [1459869818] :   creating indexes
+2016-04-05 17:23:38 [1459869818] :   analyzing
+2016-04-05 17:23:40 [1459869820] : running TPC-H benchmark
+2016-04-05 17:23:40 [1459869820] : running queries defined in TPC-H benchmark
+2016-04-05 17:23:40 [1459869820] :   running query 1
+2016-04-05 17:26:42 [1459870002] :     query 1 finished OK (180 seconds)
+2016-04-05 17:26:42 [1459870002] :   running query 2
+2016-04-05 17:27:17 [1459870037] : preparing TPC-H database
+2016-04-05 17:27:17 [1459870037] :   loading data
+2016-04-05 17:27:18 [1459870038] :   creating primary keys
+2016-04-05 17:29:51 [1459870191] :     query 2 finished OK (2 seconds)
+2016-04-05 17:29:51 [1459870191] :   running query 3
+2016-04-05 17:29:55 [1459870195] :     query 3 finished OK (3 seconds)
+2016-04-05 17:29:55 [1459870195] :   running query 4
+2016-04-05 17:32:58 [1459870378] :     query 4 finished OK (182 seconds)
+2016-04-05 17:32:58 [1459870378] :   running query 5
+2016-04-05 17:34:10 [1459870450] : preparing TPC-H database
+2016-04-05 17:34:10 [1459870450] :   loading data
+2016-04-05 17:34:23 [1459870463] :   creating primary keys
+2016-04-05 17:34:25 [1459870465] :   creating foreign keys
+2016-04-05 17:34:26 [1459870466] :   creating indexes
+2016-04-05 17:34:28 [1459870468] :   analyzing
+2016-04-05 17:35:28 [1459870528] : running TPC-H benchmark
+2016-04-05 17:35:29 [1459870529] : running queries defined in TPC-H benchmark
+2016-04-05 17:35:29 [1459870529] :   running query 1
+2016-04-05 17:39:17 [1459870757] : preparing TPC-H database
+2016-04-05 17:39:17 [1459870757] :   loading data
+2016-04-05 17:39:19 [1459870759] :   creating primary keys
+2016-04-05 17:39:21 [1459870761] :   creating foreign keys
+2016-04-05 17:39:23 [1459870763] :   creating indexes
+2016-04-05 17:40:11 [1459870811] :   analyzing
+2016-04-05 17:40:15 [1459870815] : running TPC-H benchmark
+2016-04-05 17:40:15 [1459870815] : running queries defined in TPC-H benchmark
+2016-04-05 17:40:15 [1459870815] :   running query 1
